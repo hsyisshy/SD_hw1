@@ -33,7 +33,6 @@ h2 {
 
 .left-column li {
     color: #333;
-    text-align: left;
 }
 
 .left-column img {
@@ -72,7 +71,4 @@ h2 {
         flex-direction: column; /* 小於 768px 時，改為垂直排列 */
     }
     
-    .left-column {
-        text-align: center;
-    }
 }
