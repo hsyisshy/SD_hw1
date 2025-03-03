@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    gap: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    background-color: beige;
+}
+
+h2 {
+    color: #333;
+}
+
+.left-column {
+    width: 30%; /* 左側欄寬度 */
+    text-align: center;
+}
+
+.left-column li {
+    color: #333;
+    text-align: left;
+}
+
+.left-column img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 30%;
+}
+
+.info h2 {
+    margin-bottom: 5px;
+}
+
+.info p {
+    margin-top: 0;
+}
+
+.contact .social-icon {
+    font-size: 24px;
+    margin: 10px;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s, transform 0.3s;
+  }
+
+.contact .social-icon:hover {
+    color: pink;
+}
+
+.right-column {
+    width: 70%; /* 右側欄寬度 */
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* 小於 768px 時，改為垂直排列 */
+    }
+    
+    .left-column {
+        text-align: center;
+    }
+}
