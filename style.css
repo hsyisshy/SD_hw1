@@ -52,11 +52,10 @@ h2 {
 }
 
 .contact .social-icon {
-    font-size: 24px;
-    margin: 10px;
-    text-decoration: none;
+    font-size: 30px;
+    margin: 20px;
     color: #333;
-    transition: color 0.3s, transform 0.3s;
+    transition: color 1s, transform 1s;
   }
 
 .contact .social-icon:hover {
